@@ -33,11 +33,11 @@ export default class ClassList extends Component {
                     <th scope="col">Last Name</th>
                     </tr>
                 </thead>
-        </table>
         <tbody>
 
             {this.state.classmates.map((c, i)=> <ClassListRows classmate={c} key={i}/>)}
         </tbody>
+        </table>
         
         </div>
     );
